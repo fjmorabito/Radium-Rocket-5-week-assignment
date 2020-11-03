@@ -1,0 +1,173 @@
+@media(min-width:720px) and (max-width:1039px)  {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .main-section {
+        width: 55%;
+        order: 1;
+    }
+
+    .aside {
+        width: 25%;
+        order: 2;
+        height: 500px;
+        margin-top: 150px;
+        font-size: 15px;
+        height: 70%;
+        padding-right: 10px;
+    }
+
+    section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    section .second-content{ 
+        order: 3;
+        width: 40%;
+        margin-right: 40px;
+    }
+
+    .nav-1, .nav-2 {
+        display: flex;
+    }
+
+    .hambur, .hambur-style {
+        display: none;
+    }
+
+ 
+    .menu li {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .trending {
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .genre {
+        font-size: 16px;
+    }
+
+    .article-sport .second-content, .article-techno .second-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .article-sport p, .article-techno p {
+        font-size: 20px;
+    }
+
+    .news1, .news2 {
+        width: 36%;
+    }
+    .news3 {
+        width: 100%;
+    }
+
+    footer p {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+}
+
+@media (min-width:1040px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .main-section {
+        width: 55%;
+        order: 1;
+    }
+
+    .aside {
+        width: 25%;
+        order: 2;
+        height: 500px;
+        margin-top: 150px;
+        font-size: 15px;
+        height: 70%;
+        padding-right: 10px;
+    }
+
+    section {
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    section .second-content{ 
+        order: 3;
+        width: 40%;
+        margin-right: 40px;
+    }
+
+ 
+    .menu li {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .trending {
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .genre {
+        font-size: 16px;
+    }
+
+    .article-sport .second-content, .article-techno .second-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .article-sport p, .article-techno p {
+        font-size: 20px;
+    }
+
+    .article-sport .second-news, .article-techno .second-news {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+
+    .news1, .news2, .news3 {
+        width: 23%;
+    }
+
+    footer p {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .nav-1, .nav-2 {
+        display: flex;
+    }
+
+    .hambur, .hambur-style {
+        display: none;
+    }
+
+    .li-block {
+        width: 50%;
+    }
+}
